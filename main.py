@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 origins = [
     "http://localhost.tiangolo.com", "https://localhost.tiangolo.com",
     "http://localhost", "http://localhost:8080",
-    "https://git.heroku.com/hotel-app3.git"
+    "https://hotel-app4.herokuapp.com"
 ]
 
 api.add_middleware(
